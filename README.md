@@ -1,2 +1,2 @@
 # C-language-learnings
-i posted all my practicd problems code in it
+I posted all my practice problems' code in it
