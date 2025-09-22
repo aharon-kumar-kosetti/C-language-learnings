@@ -4,6 +4,7 @@
 ![Repo Size](https://img.shields.io/github/repo-size/aharon-kumar-kosetti/c-language-learnings)
 ![Issues](https://img.shields.io/github/issues/aharon-kumar-kosetti/c-language-learnings)
 ![Stars](https://img.shields.io/github/stars/aharon-kumar-kosetti/c-language-learnings?style=social)
+![](https://komarev.com/ghpvc/?username=aharon-kumar-kosetti)
 
 Welcome to my **C Language Learnings** repository! 🎯  
 
