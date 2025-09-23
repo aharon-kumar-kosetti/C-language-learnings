@@ -1,9 +1,9 @@
-// Online C compiler to run C program online
 #include <stdio.h>
 
 int main() {
+    //ch - choice/ bf - before tax update/ af - after tax update/ am - amount purchased/ sv - saved amount/
     int ch; float bf, af, am, sv;
-    printf("1. Medicine\n2. auto-mobiles\n3.cement\n4.groceries\n5.insurance\n>>>Select one from above to know the value of the tax:  ");
+    printf("1. Medicine\n2. auto-mobiles\n3.cement\n4.groceries\n5.insurance\n>>>Select one from above:  ");
     scanf("%d", &ch);
     printf("Enter the amount purchased:  ");
     scanf("%f", &am);
@@ -29,9 +29,9 @@ int main() {
         af = am*0.12;
         sv = bf - af;
     }
-    printf("Before the Tax Slab Update: %.2f\n", bf + am);
-    printf("After the Tax Slab Update: %.2f\n", af + am);
-    printf("Amount You Saved: %.2f\n", sv);
+    printf("Before the Tax Slab Update: Rs. %.2f\n", bf + am);
+    printf("After the Tax Slab Update: Rs. %.2f\n", af + am);
+    printf("Amount You Saved: Rs. %.2f\n", sv);
     
     return 0;
 }
